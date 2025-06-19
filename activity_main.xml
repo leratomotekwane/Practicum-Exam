@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Now Playing!"
+            android:textColor="#FFC0CB"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNowPlayingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Title: N/A"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvNowPlayingArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Artist: N/A"
+            android:textColor="#CCCCCC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvNowPlayingRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Rating: N/A"
+            android:textColor="#CCCCCC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvNowPlayingComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Comments: N/A"
+            android:textAlignment="center"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvMusicFact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Fun Music Fact: Discover something new!"
+            android:textAlignment="center"
+            android:textColor="#FFC0CB"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC0CB"
+            android:text="Back to Main Screen"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>
